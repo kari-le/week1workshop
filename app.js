@@ -22,7 +22,8 @@ app.set("view engine", "jade");
 // MongoDB Confi
 const mongoose = require("mongoose");
 const mongodbURI =
-  "mongodb+srv:/mongodb+srv://student9013559:YN1FQ35BsAs2j3fI@nucampworkshop.kmnhigf.mongodb.net/?retryWrites=true&w=majority";
+  //"mongodb+srv://student9013559:YN1FQ35BsAs2j3fI@nucampworkshop.kmnhigf.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://student9013559:YN1FQ35BsAs2j3fI@nucampworkshop.kmnhigf.mongodb.net/?retryWrites=true&w=majority";
 //process.env.MONGO_URI;
 
 const connect = mongoose.connect(mongodbURI, {
